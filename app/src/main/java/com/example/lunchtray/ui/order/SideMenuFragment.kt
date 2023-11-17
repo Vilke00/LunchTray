@@ -24,7 +24,6 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.lunchtray.R
 import com.example.lunchtray.databinding.FragmentSideMenuBinding
-import com.example.lunchtray.model.OrderViewModel
 
 /**
  * [SideMenuFragment] allows people to add a side to the order or cancel the order.

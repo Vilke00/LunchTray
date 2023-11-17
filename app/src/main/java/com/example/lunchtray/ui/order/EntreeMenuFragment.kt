@@ -24,7 +24,6 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.lunchtray.R
 import com.example.lunchtray.databinding.FragmentEntreeMenuBinding
-import com.example.lunchtray.model.OrderViewModel
 
 /**
  * [EntreeMenuFragment] allows people to add an entree to the order or cancel the order.

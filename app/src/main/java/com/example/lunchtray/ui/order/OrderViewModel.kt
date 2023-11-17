@@ -13,13 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.lunchtray.model
+package com.example.lunchtray.ui.order
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import com.example.lunchtray.data.DataSource
+import com.example.lunchtray.model.MenuItem
 import java.text.NumberFormat
 
 class OrderViewModel : ViewModel() {
@@ -134,6 +135,9 @@ class OrderViewModel : ViewModel() {
      * Reset all values pertaining to the order.
      */
     fun resetOrder() {
+        previousEntreePrice = 0.0
+        previousSidePrice = 0.0
+        previousAccompanimentPrice = 0.0
         _entree.value = null
         _side.value = null
         _accompaniment.value = null

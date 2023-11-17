@@ -24,7 +24,6 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.lunchtray.R
 import com.example.lunchtray.databinding.FragmentAccompanimentMenuBinding
-import com.example.lunchtray.model.OrderViewModel
 
 /**
  * [AccompanimentMenuFragment] allows people to add an accompaniment to their order or cancel the

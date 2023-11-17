@@ -24,7 +24,6 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.lunchtray.R
 import com.example.lunchtray.databinding.FragmentCheckoutBinding
-import com.example.lunchtray.model.OrderViewModel
 import com.google.android.material.snackbar.Snackbar
 
 /**
